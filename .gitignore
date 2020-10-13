@@ -24,6 +24,7 @@ yarn-error.log*
 
 ./idea
 /idea
-.idea.idea
+.idea
+.idea
 .spacex-layout
 /spacex-layout
