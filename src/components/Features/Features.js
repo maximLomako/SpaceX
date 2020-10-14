@@ -1,5 +1,7 @@
 import React from "react";
-import './Features.css'
+import './features.css'
+import RellaxWrapper from 'react-rellax-wrapper'
+
 
 const Features = () => {
   return (
@@ -32,14 +34,18 @@ const Features = () => {
           </tr>
           </thead>
         </table>
-        <img
-          src='../../img/falcon-1.png'
-          alt="rocket"
-          className="rocket"
-          data-rellax-speed="14"
-        />
+        <RellaxWrapper speed={14}>
+          <img
+            src='./img/falcon-1.png'
+            alt="rocket"
+            className="rocket"
+          />
+        </RellaxWrapper>
+
+
+
         <article>
-          <h3 className="features-subtitle">DESCRIPTION</h3>
+            <h3 className="features-subtitle">DESCRIPTION</h3>
           <p className="features-text">
             The Falcon 1 was an expendable launch system privately developed and manufactured by SpaceX during
             2006-2009. On 28 September 2008, Falcon 1 became the first privately-developed liquid-fuel launch vehicle to
