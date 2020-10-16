@@ -32,7 +32,7 @@ const Header = (props) => {
             >Home</NavLink>
           </li>
           <li className="item">
-            <NavLink to="calendar" className="item-link"
+            <NavLink to="/calendar" className="item-link"
                      activeClassName='active'
             >Calendar</NavLink>
           </li>
